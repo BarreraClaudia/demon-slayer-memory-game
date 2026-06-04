@@ -1,0 +1,115 @@
+.card {
+  background: #111;
+  border-radius: 12px;
+  padding: 10px 6px 8px;
+  border: 1px solid transparent;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  gap: 0.5rem;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
+  box-shadow: 0 0 18px 3px var(--glow-color);
+}
+
+.card-img {
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card-name {
+  color: #888;
+  text-align: center;
+  line-height: 1.3;
+  padding: 0.5rem;
+}
+
+/* tanjirou */
+.card-146156 {
+  --glow-color: rgba(74, 144, 217, 0.35);
+  box-shadow: 0 0 8px 1px var(--glow-color);
+  border-color: #4a90d9;
+}
+
+/* nezuko */
+.card-146157 {
+  --glow-color: rgba(217, 74, 154, 0.35);
+  box-shadow: 0 0 8px 1px var(--glow-color);
+  border-color: #d94a9a;
+}
+
+/* zenitsu */
+.card-146158 {
+  --glow-color: rgba(240, 208, 80, 0.35);
+  box-shadow: 0 0 8px 1px var(--glow-color);
+  border-color: #f0d050;
+}
+
+/* inosuke */
+.card-146159 {
+  --glow-color: rgba(200, 133, 74, 0.35);
+  box-shadow: 0 0 8px 1px var(--glow-color);
+  border-color: #c8854a;
+}
+
+/* shinobu  */
+.card-146736 {
+  --glow-color: rgba(160, 74, 200, 0.35);
+  box-shadow: 0 0 8px 1px var(--glow-color);
+  border-color: #a04ac8;
+}
+
+/* kyoujurou  */
+.card-151143 {
+  --glow-color: rgba(232, 93, 26, 0.35);
+  box-shadow: 0 0 8px 1px var(--glow-color);
+  border-color: #e85d1a;
+}
+
+/* giyuu  */
+.card-146735 {
+  --glow-color: rgba(74, 110, 217, 0.35);
+  box-shadow: 0 0 8px 1px var(--glow-color);
+  border-color: #4a6ed9;
+}
+
+/* muichirou */
+.card-151147 {
+  --glow-color: rgba(80, 200, 200, 0.35);
+  box-shadow: 0 0 8px 1px var(--glow-color);
+  border-color: #50c8c8;
+}
+
+/* mitsuri */
+.card-151145 {
+  --glow-color: rgba(232, 93, 138, 0.35);
+  box-shadow: 0 0 8px 1px var(--glow-color);
+  border-color: #e85d8a;
+}
+
+/* tengen */
+.card-151144 {
+  --glow-color: rgba(160, 212, 240, 0.35);
+  box-shadow: 0 0 8px 1px var(--glow-color);
+  border-color: #a0d4f0;
+}
+
+/* gyoumei */
+.card-151146 {
+  --glow-color: rgba(136, 135, 128, 0.35);
+  box-shadow: 0 0 8px 1px var(--glow-color);
+  border-color: #888780;
+}
+
+/* kagaya */
+.card-151150 {
+  --glow-color: rgba(200, 160, 0, 0.35);
+  box-shadow: 0 0 8px 1px var(--glow-color);
+  border-color: #c8a000;
+}

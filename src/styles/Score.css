@@ -1,0 +1,19 @@
+.scores-container {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.score {
+  background: #111;
+  border: 1px solid #2a2a2a;
+  border-radius: 12px;
+  padding: 8px 12px;
+  text-align: center;
+}
+
+.score-value {
+  color: #fff;
+  font-size: var(--step-1);
+}

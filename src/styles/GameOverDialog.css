@@ -1,0 +1,52 @@
+.game-over-dialog {
+  background: #111;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  text-align: center;
+  max-width: 45ch;
+}
+
+.dialog-title {
+  font-size: var(--step-1);
+  font-weight: 500;
+  color: #f0f0f0;
+  margin-bottom: 0.5rem;
+}
+
+.dialog-msg {
+  color: #888;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.dialog-btn {
+  color: #fff;
+  background-color: #111;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 10px 28px;
+  font-size: var(--step--1);
+  font-weight: 500;
+  cursor: pointer;
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.dialog-btn:hover {
+  box-shadow: 0 0 8px 1px rgba(136, 135, 128, 0.35);
+  transform: translateY(-5px);
+}
+
+.dialog-btn:focus {
+  outline: none;
+  box-shadow: 0 0 8px 1px rgba(136, 135, 128, 0.35);
+}
+
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px); /* Safari support */
+}
