@@ -87,7 +87,12 @@ function Game() {
   }, []); // 3. Empty dependency array makes it only run once
 
   if (isLoading) {
-    return <div className="spinner">Loading data...</div>;
+    return (
+      <div className="loading-container">
+        <div className="spinner"></div>
+        <p>Loading...</p>
+      </div>
+    );
   }
 
   return (
