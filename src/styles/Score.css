@@ -6,11 +6,12 @@
 }
 
 .score {
-  background: #111;
-  border: 1px solid #2a2a2a;
   border-radius: 12px;
   padding: 8px 12px;
   text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(255, 0, 0, 0.5);
+  box-shadow: 0 0 8px 1px rgba(255, 0, 0, 0.3);
 }
 
 .score-value {
